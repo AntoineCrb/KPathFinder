@@ -13,7 +13,7 @@ KPathfinder is an opensource project, made for fun and skill improvements, it wi
 ## Performance Tests : 
 
 |  Path length  |  Obstacles  |  KPathfinder | AStar  | Ratio |
-|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 5  | No  | 28,6μs  | 118,9μs  | 4.15 times faster |
 | 500  | No  | 66,6μs |  83ms | 1246 times faster |
 | 500  | Yes  | 86ms  |  85ms | 0.99 times slower |
