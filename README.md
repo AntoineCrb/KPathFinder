@@ -9,6 +9,7 @@ KPathfinder is a pathfinding algorithm designed for performance.
 It's based on the AStar algorithm with a considerable performance improvement in some specific cases.
 KPathfinder is an opensource project, made for fun and skill improvements, it will stay as is.
 
+In this repository you will be able to find my own implementation of the **A*** algorithm using **C#**, of a MinHeap using a **binary search** and also of the **KPathfinder**.
 
 ## Performance Tests : 
 
@@ -40,7 +41,8 @@ The **KPathfinder** has been made to answer **performance issues** on a specific
 
 The **KPathfinder** is extremely fast if the path hasn't any obstacle. It must therefore be used if the map does **not present many obstacles** or if there are **many requests for short path**.
 
-For instance, if you have a map like that, using the **KPathfinder** will be able to increase your performance drastically, as you can see in the performance test, it can be up to 1000 times faster than the **AStar** algorithm.
+For instance, if you have a map like the one below, using the **KPathfinder** will be able to increase your performance drastically, as you can see in the performance test, it can be up to 2600 times faster than the **AStar** algorithm.
+
 <img src="https://i.ibb.co/pLbYg6t/KPath-map.jpg" height="450px">
 
 *this type of map is common in many games*
