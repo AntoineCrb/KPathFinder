@@ -14,13 +14,13 @@ KPathfinder is an opensource project, made for fun and skill improvements, it wi
 
 |  Path length  |  Obstacles  |  KPathfinder | AStar  | Ratio |
 | --- | --- | --- | --- | --- |
-| 5  | No  | 28,6μs  | 118,9μs  | 4.15 times faster |
-| 500  | No  | 66,6μs |  83ms | 1246 times faster |
-| 500  | Yes  | 86ms  |  85ms | 0.99 times slower |
+| 5  | No  | 0,4μs  | 5,7μs  | 14.25 times faster |
+| 500  | No  | 6,4μs |  17,0ms | 2656.25 times faster |
+| 500  | Yes  | 16,9ms  |  16,9ms | as fast |
 
 **Hardware** : CPU Intel Core i3-6100, 12GB RAM DDR4
 
-**Note**: Every test have been realised 100 times, the result was then divided by 100. The AStar algorithm used is the same as the one implemented in the KPathfinder.
+**Note**: Every test have been realised 10000 times, the result was then divided by 10000. The AStar algorithm used is the same as the one implemented in the KPathfinder.
 
 
 ## How does it work ?
@@ -41,7 +41,8 @@ The **KPathfinder** has been made to answer **performance issues** on a specific
 The **KPathfinder** is extremely fast if the path hasn't any obstacle. It must therefore be used if the map does **not present many obstacles** or if there are **many requests for short path**.
 
 For instance, if you have a map like that, using the **KPathfinder** will be able to increase your performance drastically, as you can see in the performance test, it can be up to 1000 times faster than the **AStar** algorithm.
-<img src="https://i.ibb.co/pLbYg6t/KPath-map.jpg" height="550px">
+<img src="https://i.ibb.co/pLbYg6t/KPath-map.jpg" height="450px">
+
 *this type of map is common in many games*
 
 
