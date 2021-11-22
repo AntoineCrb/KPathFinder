@@ -54,7 +54,7 @@ For instance, if you have a map like the one below, using the **KPathfinder** wi
 
 ## Credits
 ### Authors : 
-- Kraken
+- AntoineCrb
 
 ### Special Thanks :
 - Blowa
