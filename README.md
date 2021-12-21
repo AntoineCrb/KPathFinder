@@ -35,7 +35,7 @@ However, if the direct path encounter a wall, it just restart the search from th
 As a result, the **KPathfinder** can be significantly faster than the **AStar** algorithm in some cases and it will be as accurate as it.
 
 
-## When should you used the KPathfinder ?
+## When to use it ?
 
 The **KPathfinder** has been made to answer **performance issues** on a specific case.
 
